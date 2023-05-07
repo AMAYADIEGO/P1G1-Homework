@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My primera pag Web</title>
+</head>
+<body>
+
+<h2>Universidad Privada Cumbre</h2>
+<h1>Diego Fernando Amaya Quispe</h1>
+<button onclick="Myprimeralgoritmo()">
+Como saber si un numero es positivo o negativo
+</button>
+
+<button onclick="Mysegundoalgoritmo()">
+Como saber si un numero es mayor a 10
+</button>
+
+<button onclick="Myterceralgoritmo()">
+Dado dos números A y B, retornar el numero con mayor valor
+</button>
+
+<script>
+function Myprimeralgoritmo(){
+      var numero 
+      if(numero >0){
+               alert("numero es POSITIVO")
+      }else{
+               alert("numero es NEGATIVO");
+      }
+}
+
+function Mysegundoalgoritmo(){
+        var N 
+     N = prompt("Ingrese N:", 47);
+     if (N == 10) {
+        alert(N + "es igual que 10")
+      } else {
+       if(N > 7) {
+         alert(N + "es mayor que 10")
+        }else{
+         alert(N + "es menor que 10")
+       } 
+      }
+}
+
+
+function Myterceralgoritmo(){    
+    var A = prompt("ingrese el primer numero");
+     var B = prompt("ingrese el segundo numero");
+         if(A > B){
+                 alert(B + "es menor")
+         }else {
+              alert(A + "es menor")
+  }
+}
+
+</script>
+
+</body>
+</html>
